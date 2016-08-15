@@ -15,6 +15,7 @@
 		897CDE3F1D61E81300BB75D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 897CDE3D1D61E81300BB75D8 /* LaunchScreen.storyboard */; };
 		897CDE4A1D61E81300BB75D8 /* CustomLayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897CDE491D61E81300BB75D8 /* CustomLayerTests.m */; };
 		897CDE551D61E81300BB75D8 /* CustomLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 897CDE541D61E81300BB75D8 /* CustomLayerUITests.m */; };
+		897CDE671D61E85500BB75D8 /* myLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 897CDE661D61E85500BB75D8 /* myLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		897CDE501D61E81300BB75D8 /* CustomLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		897CDE541D61E81300BB75D8 /* CustomLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomLayerUITests.m; sourceTree = "<group>"; };
 		897CDE561D61E81300BB75D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		897CDE651D61E85500BB75D8 /* myLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myLayer.h; sourceTree = "<group>"; };
+		897CDE661D61E85500BB75D8 /* myLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				897CDE331D61E81300BB75D8 /* AppDelegate.m */,
 				897CDE351D61E81300BB75D8 /* ViewController.h */,
 				897CDE361D61E81300BB75D8 /* ViewController.m */,
+				897CDE651D61E85500BB75D8 /* myLayer.h */,
+				897CDE661D61E85500BB75D8 /* myLayer.m */,
 				897CDE381D61E81300BB75D8 /* Main.storyboard */,
 				897CDE3B1D61E81300BB75D8 /* Assets.xcassets */,
 				897CDE3D1D61E81300BB75D8 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				897CDE371D61E81300BB75D8 /* ViewController.m in Sources */,
 				897CDE341D61E81300BB75D8 /* AppDelegate.m in Sources */,
 				897CDE311D61E81300BB75D8 /* main.m in Sources */,
+				897CDE671D61E85500BB75D8 /* myLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
